@@ -1,0 +1,30 @@
+{
+  "name": "@h3r/observable",
+  "version": "1.0.1",
+  "description": "cookies made with ease",
+  "main": "observable.js",
+  "scripts": {
+    "test": "echo 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h3r/observable.git"
+  },
+  "keywords": [
+    "js",
+    "cookies"
+  ],
+  "author": "h3r",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h3r/observable/issues"
+  },
+  "files": [
+    "observable.js"
+  ],
+  "homepage": "https://github.com/h3r/observable#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
