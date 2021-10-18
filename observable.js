@@ -11,11 +11,13 @@ Observable.prototype.on = function (type, f) {
 };
 
 Observable.prototype.emit = function (type, ...args) {
-    this.events[type]?.forEach(f => f(...args));
+    if(this.events[type])
+    this.events[type].forEach(f => f(...args));
 };
 
 Observable.prototype.off = function (type, f) {
-    this.events[type]?.delete(f);
+    if(this.events[type])
+    this.events[type].delete(f);
 };
 
 Observable.prototype.removeAll = function (type) {
