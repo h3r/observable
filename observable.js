@@ -24,5 +24,4 @@ Observable.prototype.removeAll = function (type) {
     delete this.events[type];
 };
 
-window.Observable = Observable;
 export default Observable;
